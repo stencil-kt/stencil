@@ -19,6 +19,7 @@ maven-publish = "0.25.3"
 
 # Testing
 junit = "4.13.2"
+testng = "6.9.6"
 
 
 [libraries]

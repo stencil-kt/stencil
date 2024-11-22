@@ -21,10 +21,12 @@ kotlin {
     explicitApi()
 
     sourceSets {
-        commonMain {
-            dependencies {
+        androidMain.dependencies {
+            implementation(libs.androidx.core.ktx)
+        }
 
-            }
+        commonTest.dependencies {
+            implementation(libs.junit)
         }
     }
 }
